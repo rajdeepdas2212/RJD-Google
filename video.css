@@ -1,0 +1,219 @@
+
+body{
+	height: 1dvh;
+	color: #fff;
+}
+.section{
+	height: 100vh;
+}
+.video-background{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1;
+}
+@media (min-aspect-ratio:16/9)
+{
+	.video-background{
+		width: 100%;
+		height: auto;
+	}
+}
+@media (max-aspect-ratio:16/9)
+{
+	.video-background{
+		width: auto;
+		height: 100%;
+	}
+}
+body{
+	background-color: #000000;
+	background-image: url("");
+	background-size: cover;
+	text-align: center;
+}
+p{
+	color: cyan;
+	font-size: 20px;
+	font-weight: bold;
+}
+.name{
+	color: #ffffff ;
+	font-family: Edwardian Script ITC;
+	font-size: 50px;
+	text-align: right;
+	text-shadow: 0 0 5px cyan,
+	0 0 25px cyan, 0 0 50px cyan,
+	0 0 100px cyan, 0 0 200px cyan;
+}
+@keyframes animate{
+	0%{
+		background-position: 0%;
+	}
+	100%{
+		background-position: 400%;
+	}
+}
+.love{
+	color: #ffffff ;
+	font-family: Edwardian Script ITC;
+	font-size: 50px;
+	text-align: left;
+	text-shadow: 0 0 5px red,
+	0 0 25px red, 0 0 50px red,
+	0 0 100px red, 0 0 200px red;
+}
+form.search-bar{
+	width: 100%;
+	max-width: 550px;
+	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	border-radius: 60px;
+	padding: 10px 15px;
+}
+.search-bar input{
+	background: transparent;
+	flex: 1;
+	border: 0;
+	outline: none;
+	font-size: 15px;
+	color: black; 
+
+}
+.search-bar button{
+	background: transparent;
+	border: 0;
+	border-radius: 50%;
+}
+.search-bar{
+	color: cyan;
+	background-color: black;
+	box-shadow: 0 0 5px cyan,
+	0 0 25px cyan;
+}
+.search-bar:hover{
+	box-shadow: 0 0 5px cyan,
+	0 0 25px cyan, 0 0 50px cyan,
+	0 0 100px cyan, 0 0 200px cyan;
+}
+a.GoogleChrome{
+	color: #FFFFFF;
+	text-decoration-line: none;
+}
+a.GoogleChrome:hover{
+	opacity: 0.35;	
+}
+td.GoogleChrome{
+	color: cyan;
+	background-color: black;
+	box-shadow: 0 0 5px cyan,
+	0 0 25px cyan;
+}
+td.GoogleChrome:hover{
+	box-shadow: 0 0 5px cyan,
+	0 0 25px cyan, 0 0 50px cyan,
+	0 0 100px cyan, 0 0 200px cyan;
+}
+a.Gmail{
+	color: #FFFFFF;
+	text-decoration-line: none;
+}
+a.Gmail:hover{
+	opacity: 0.35;
+}
+td.Gmail{
+	color: cyan;
+	background-color: black;
+	box-shadow: 0 0 5px cyan,
+	0 0 25px cyan;
+}
+td.Gmail:hover{
+	box-shadow: 0 0 5px cyan,
+	0 0 25px cyan, 0 0 50px cyan,
+	0 0 100px cyan, 0 0 200px cyan;
+}
+a.YouTube{
+	color: #FFFFFF;
+	text-decoration-line: none;
+}
+a.YouTube:hover{
+	opacity: 0.35;
+}
+td.YouTube{
+	color: cyan;
+	background-color: black;
+	box-shadow: 0 0 5px cyan,
+	0 0 25px cyan;
+}
+td.YouTube:hover{
+	box-shadow: 0 0 5px cyan,
+	0 0 25px cyan, 0 0 50px cyan,
+	0 0 100px cyan, 0 0 200px cyan;
+}
+a.facebook{
+	color: #FFFFFF;
+	text-decoration-line: none;
+}
+a.facebook:hover{
+	opacity: 0.35;
+}
+td.facebook{
+	color: cyan;
+	background-color: black;
+	box-shadow: 0 0 5px cyan,
+	0 0 25px cyan;
+}
+td.facebook:hover{
+	box-shadow: 0 0 5px cyan,
+	0 0 25px cyan, 0 0 50px cyan,
+	0 0 100px cyan, 0 0 200px cyan;
+}
+a.instagram{
+	color: #FFFFFF;
+	text-decoration-line: none;
+}
+a.instagram:hover{
+	opacity: 0.35;
+}
+td.instagram{
+	color: cyan;
+	background-color: black;
+	box-shadow: 0 0 5px cyan,
+	0 0 25px cyan;
+}
+td.instagram:hover{
+	box-shadow: 0 0 5px cyan,
+	0 0 25px cyan, 0 0 50px cyan,
+	0 0 100px cyan, 0 0 200px cyan;
+}
+/*a.classroom:hover{
+	opacity: 0.35;
+}
+td.classroom{
+	color: cyan;
+	background-color: black;
+	box-shadow: 0 0 5px cyan,
+	0 0 25px cyan;
+}
+td.classroom:hover{
+	box-shadow: 0 0 5px cyan,
+	0 0 25px cyan, 0 0 50px cyan,
+	0 0 100px cyan, 0 0 200px cyan;
+}*/
+div.Google{
+	font-size: 80px;
+	font-weight: bold;
+	text-shadow: 0 0 5px cyan,
+	0 0 25px cyan, 0 0 50px cyan,
+	0 0 100px cyan, 0 0 200px cyan;
+}
+.drop-sign{
+	width: 300px;
+	color: #04c4eb;
+	font-size: 20px;
+}
